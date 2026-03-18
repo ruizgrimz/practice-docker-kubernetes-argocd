@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #994545;
     --foreground: #ededed;
   }
 }
@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px dotted rgb(96 139 168); */
+}
+
